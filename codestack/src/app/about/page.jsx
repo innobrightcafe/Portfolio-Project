@@ -6,4 +6,4 @@ const AboutUsPage = () => {
   )
 }
 
-export default AboutUsPage
+export default AboutUsPage;
