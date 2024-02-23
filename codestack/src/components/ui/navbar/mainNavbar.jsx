@@ -1,7 +1,12 @@
 "use client"; 
 import styles from "./mainNavbar.module.css";
 import { 
+  MdAddCircle,
+  MdHome,
+  MdMessage,
   MdNotifications, 
+  MdOutlineGrade, 
+  MdPeople, 
   MdSearch,
 } from "react-icons/md";
 import Image from "next/image";
@@ -21,32 +26,32 @@ const MainNavbar = () => {
           <div className={styles.menu}>
             <Link href={"/"}>
               <h3>
-                <MdNotifications size={20} />
+                <MdHome size={20} />
                 Home
               </h3>
             </Link>
             <Link href={"/"}>
               <h3>
-                <MdNotifications size={20} />
+                <MdPeople size={20} />
                 About
               </h3>
             </Link>
             <Link href={"/"}>
               <h3>
-                <MdNotifications size={20} />
+                <MdMessage size={20} />
                 Contact
               </h3>
             </Link>
             <Link href={"/"}>
               <h3>
-                <MdNotifications size={20} />
-                FAQ
+                <MdOutlineGrade size={20} />
+                Faq
               </h3>
             </Link>
             <div className={styles.menubtn}>
               <Link href={"/"}>
                 <h3>
-                  <MdNotifications size={20} />
+                  <MdAddCircle size={20} />
                   Join codeStack
                 </h3>
               </Link>

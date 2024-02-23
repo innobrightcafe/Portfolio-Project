@@ -1,34 +1,4 @@
-.container {
-    display: flex;  
-  }
-  
-  .content {
-      flex: 10;
-      padding: 1rem;
-      background: var(--bg-primary);
-  }
-  
-  .wrapper {
-    display: flex;
-    gap: 2rem;
-    margin-top: 2rem;
-  
-  }
-  
-  .main {
-    flex: 3;
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-  }
-  
-  .cards { 
-    display: flex;
-    gap: 2rem;
-    justify-content: space-evenly;
-  }
-  
-  .side{
-    flex: 1;
-  
-  }
+.container { 
+  display: flex;
+  flex-direction: column; 
+}

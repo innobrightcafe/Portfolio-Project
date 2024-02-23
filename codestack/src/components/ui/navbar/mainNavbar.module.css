@@ -8,16 +8,17 @@
 
 }
 .container {
-  padding: 2rem;
+  padding: 2rem 0;
   border-radius: 2rem;
   background-color: #fff;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  align-items: center; 
+  justify-content: flex-end;
   box-shadow: var(--shadowlg);
   width: 70%;
-  border-right: solid 10rem;
+  border-right: solid 12rem;
   border-color: var(--bg-secondary);
+
 }
 
 .title {
@@ -36,11 +37,19 @@
   justify-content: space-around;
   position: absolute;
   padding: .5rem;
+  font-weight: 600;
   
 }
 
+.menu :hover {
+  color: var(--btn-secondary);
+}
+
+
 .menubtn {
-  margin-right: -8rem;
+  margin-right: -10rem;
+  margin-left: 6rem;
+  color: #fff;
 }
 
 .menu h3 {
@@ -49,8 +58,16 @@
 
 .menu svg {
   color: var(--bg-secondary);
+  margin-right: .2rem; 
 }
 
+.menu svg :hover {
+  color: var(--btn-secondary);
+}
+
+.menubtn svg {
+  color: #fff;
+}
 .search {
   display: flex;
   align-items: center; 
@@ -60,7 +77,7 @@
   box-shadow: var(--shadowlg);
   margin-top: 3rem; 
   justify-content: space-between;
-  border-right: solid 10rem;
+  border-right: solid 11rem;
   border-color: var(--bg-secondary);
 }
 
