@@ -30,26 +30,26 @@ const MainNavbar = () => {
                 Home
               </h3>
             </Link>
-            <Link href={"/"}>
+            <Link href={"/about"}>
               <h3>
                 <MdPeople size={20} />
                 About
               </h3>
             </Link>
-            <Link href={"/"}>
-              <h3>
+            <Link href={"/contact"}>
+               <h3>
                 <MdMessage size={20} />
                 Contact
               </h3>
             </Link>
-            <Link href={"/"}>
+            <Link href={"/faq"}>
               <h3>
                 <MdOutlineGrade size={20} />
                 Faq
               </h3>
             </Link>
             <div className={styles.menubtn}>
-              <Link href={"/"}>
+              <Link href={"/join"}>
                 <h3>
                   <MdAddCircle size={20} />
                   Join codeStack

@@ -1,7 +1,14 @@
 "use client";
 import { usePathname } from "next/navigation";
 import styles from "./navbar.module.css";
-import { MdHelp, MdNoteAdd, MdNotes, MdNotifications, MdOutlineGrade, MdPerson} from "react-icons/md";
+import {
+  MdHelp,
+  MdNoteAdd,
+  MdNotes,
+  MdNotifications,
+  MdOutlineGrade,
+  MdPerson,
+} from "react-icons/md";
 import { FaPlusCircle } from "react-icons/fa";
 import Image from "next/image";
 import Link from "next/link";
@@ -45,12 +52,11 @@ const DashboardNavbar = () => {
               </h3>
             </Link>
           </div>
-          
         </div>
         <div className={styles.plus}>
-            <FaPlusCircle size={40} />
+          <FaPlusCircle size={40} />
         </div>
-      </div> 
+      </div>
     </>
   );
 };
