@@ -17,6 +17,7 @@ function ContactPage() {
             cols={30}
             rows={10}
             placeholder="Message"
+            
           ></textarea>
           <button>Send</button>
         </form>
