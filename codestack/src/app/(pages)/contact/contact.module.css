@@ -18,9 +18,13 @@
 .formContainer {
   flex: 1;
   background: #fff;
-  padding: 2rem;
-  margin: 5rem 0;
+  padding: 2rem; 
   border-radius: 2rem;
+  margin: 5rem 1rem 5rem 1rem;
+}
+
+.formContainer p {
+  padding: 0 0 1rem 1rem;
 }
 .form {
   display: flex;
@@ -30,17 +34,23 @@
 .form input,
 .form textarea {
   padding: 20px;
-  border-radius: 5px;
+  border-radius: 2rem;
   border: none;
   outline: none;
-  background-color: rgb(8, 8, 50);
+  background-color: var(--card-color);
   color: white;
+  box-shadow: var(--shadow);
+
 }
 .form button {
   padding: 20px;
-  background-color: rgb(8, 8, 50);
+  background-color: var(--btn-primary);
   color: white;
   font-weight: bold;
   border: none;
-  border-radius: 5px;
+  border-radius: 2rem;
+}
+
+.form button:hover {
+  background-color: var(--btn-secondary);
 }

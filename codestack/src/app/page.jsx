@@ -4,6 +4,14 @@ import {
   MdArrowBackIos, 
   MdArrowForwardIos, 
 } from "react-icons/md";
+import {Pagination } from 'swiper';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/pagination';
+import { Categories } from "./data";
+
+
+
 
 export default function Home() {
   return (
