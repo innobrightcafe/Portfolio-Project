@@ -1,24 +1,24 @@
-// "use client";
+import styles from "@/components/ui/loginForm/loginform.module.css";
+import Link from "next/link";
 
-// import { login } from "@/lib/action";
-// import styles from "./loginForm.module.css";
-// import { useFormState } from "react-dom";
-// import Link from "next/link";
+const LoginForm = () => {
+  return (
+    <div className={styles.container}>
+      <div className={styles.formContainer}>
+        <form className={styles.form} action="">
+          <input type="text" placeholder="username" name="username" />
+          <input type="password" placeholder="password" name="password" />
+          <button>Login</button>
+          {/* {state?.error} */}
+          <Link href="/register">
+            <p>
+              {"Don't have an account?"} <b>Register</b>
+            </p>
+          </Link>
+        </form>
+      </div>
+    </div>
+  );
+};
 
-// const LoginForm = () => {
-//   const [state, formAction] = useFormState(login, undefined);
-
-//   return (
-//     <form className={styles.form} action={formAction}>
-//       <input type="text" placeholder="username" name="username" />
-//       <input type="password" placeholder="password" name="password" />
-//       <button>Login</button>
-//       {state?.error}
-//       <Link href="/register">
-//         {"Don't have an account?"} <b>Register</b>
-//       </Link>
-//     </form>
-//   );
-// };
-
-// export default LoginForm;
+export default LoginForm;

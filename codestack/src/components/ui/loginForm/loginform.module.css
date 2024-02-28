@@ -1,14 +1,15 @@
 .container {
-  width: 90vh;
+  display: flex;
+  margin-top: 5rem; 
+  justify-content: center;
+  align-items: center;
+
 }
 
-.formContainer {
-  flex: 1;
-  height: 80vh;
+.formContainer { 
   background: #fff;
   padding: 2rem;
-  border-radius: 2rem;
-  margin: 5rem 1rem 5rem 1rem;
+  border-radius: 2rem; 
 }
 
 .container p {
@@ -20,25 +21,25 @@
 .form {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 1rem;
 }
 .form input {
-  padding: 20px;
+  padding: 1rem;
   border-radius: 1.5rem;
   border: none;
   outline: none;
   background-color: var(--card-color);
-  color: rgb(46, 39, 39);
+  color: var(--text-light);
   box-shadow: var(--shadow);
 }
 .form button {
-  padding: 20px;
+  padding: 1rem;
   background-color: var(--btn-primary);
   color: white;
   font-weight: bold;
   border: none;
   border-radius: 1.5rem;
-  margin-top: 40px;
+  margin-top: 2rem;
 }
 
 .form button:hover {
