@@ -36,6 +36,7 @@ export const Slider = () => {
     <div className="slider">
       <div className={styles.container}>
         <MdArrowBackIos size={25} className={styles.prev} onClick={prevSlide} />
+        <h2>ALL</h2>
         <div className={styles.sliderContainer}>
           <div className={styles.categories}>
             <div className={styles.slides}>
@@ -44,7 +45,9 @@ export const Slider = () => {
                 (currentSlide + 1) * itemsPerPage
               ).map((slide, index) => (
                 <div className={styles.cartegory__card} key={index}>
+                  
                   <div className={styles.category}>
+                    
                     <Link href={slide.link}>
                       <h3>{slide.name.slice(0, 9)}</h3>
                     </Link>

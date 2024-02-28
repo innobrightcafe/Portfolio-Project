@@ -1,7 +1,7 @@
 export const Categories = [
   {
     id: 1,
-    name: "All",
+    name: "nextjs",
     link: "/categories",
   },
   {
