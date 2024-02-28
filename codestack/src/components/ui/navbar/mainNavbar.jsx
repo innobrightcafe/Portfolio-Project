@@ -1,19 +1,19 @@
-"use client"; 
+"use client";
 import styles from "./mainNavbar.module.css";
-import { 
+import {
   MdAddCircle,
   MdHome,
   MdMessage,
-  MdNotifications, 
-  MdOutlineGrade, 
-  MdPeople, 
+  MdNotifications,
+  MdOutlineGrade,
+  MdPeople,
   MdSearch,
+  MdLogin,
 } from "react-icons/md";
 import Image from "next/image";
 import Link from "next/link";
 
 const MainNavbar = () => {
- 
   return (
     <>
       <div className={styles.top}>
@@ -37,7 +37,7 @@ const MainNavbar = () => {
               </h3>
             </Link>
             <Link href={"/contact"}>
-               <h3>
+              <h3>
                 <MdMessage size={20} />
                 Contact
               </h3>
@@ -46,6 +46,12 @@ const MainNavbar = () => {
               <h3>
                 <MdOutlineGrade size={20} />
                 Faq
+              </h3>
+            </Link>
+            <Link href={"/login"}>
+              <h3>
+                <MdLogin size={20} />
+                Login
               </h3>
             </Link>
             <div className={styles.menubtn}>
