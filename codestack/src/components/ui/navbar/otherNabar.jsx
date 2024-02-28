@@ -15,18 +15,16 @@ const OtherNavbar = () => {
   return (
     <>
       <div className={styles.top}>
-        <div className="flex"> 
-        <Link href={'/'}>
-        <Image width={40} height={40} alt="logo" src={"/Vector.png"} />
-          <h1 className={styles.title}>codeStacks</h1>
-        </Link>
-          
-           
+        <div className="flex">
+          <Link href={"/"}>
+            <Image width={40} height={40} alt="logo" src={"/Vector.png"} />
+            <h1 className={styles.title}>codeStacks</h1>
+          </Link>
         </div>
 
         <div className={styles.container}>
           <div className={styles.menu}>
-          <Link href={"/"}>
+            <Link href={"/"}>
               <h3>
                 <MdHome size={20} />
                 Home

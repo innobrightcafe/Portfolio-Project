@@ -17,12 +17,13 @@ const MainNavbar = () => {
   return (
     <>
       <div className={styles.top}>
-        <div className="flex">
-          <Link href={'/'}>
-          <Image width={40} height={40} alt="logo" src={"/Vector.png"} />
-          <h1 className={styles.title}>codeStacks</h1>
+        <div className={styles.logo}>
+          <Link href={"/"}>
+            <Image width={40} height={40} alt="logo" src={"/Vector.png"} />
+            <div>
+              <h1 className={styles.title}>codeStacks</h1>
+            </div>
           </Link>
-          
         </div>
         <div className={styles.container}>
           <div className={styles.menu}>
