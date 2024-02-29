@@ -8,6 +8,7 @@
 .mainCard {
     background: var(--card-color); 
     border-radius: 1rem;
+    box-shadow: var(--shadowlg);
 }
 
 .content { 
@@ -34,28 +35,30 @@
 .blueLayer {
     clip-path: view-box;
     padding: 1rem;
+    margin-bottom: -2.4rem;
+    background: #fff;
+    border-radius: 0 0 1rem 1rem;
+    position: relative;
+    display: block;
+    box-shadow: var(--shadow);
+}
+
+.blueLayer1 {
+    clip-path: view-box;
+    padding: 1rem;
+    margin-bottom: .7rem;
     background: var(--btn-primary);
     border-radius: 0 0 1rem 1rem;
     position: relative;
     display: block;
-}
-
-.layer{
-    clip-path: view-box;
-    padding: .2rem;
-    background: var(--card-color);
-    border-radius: 0 0 20rem 20rem;
-    box-shadow: var(--shadowlg); 
-
-}
-
-.layers{
-    clip-path: view-box;
-    padding: .3rem;
-    background: #fff;
-    border-radius: 0 0 2rem 2rem;
     box-shadow: var(--shadowlg);
-    position: relative;
-    display: block;
 }
+
+.category {
+    font-size: .8rem;
+    color: #fff;
+    margin-top: .5rem;
+}
+
+
 
