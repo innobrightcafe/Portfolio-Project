@@ -25,15 +25,15 @@ const AboutPage = () => {
         <div className={styles.boxes}>
           <div className={styles.box}>
             <h1>10 K+</h1>
-            <p>Year of experience</p>
+            <p>Active users</p>
           </div>
           <div className={styles.box}>
-            <h1>10 K+</h1>
-            <p>Year of experience</p>
+            <h1>1+</h1>
+            <p>Years old</p>
           </div>
           <div className={styles.box}>
-            <h1>10 K+</h1>
-            <p>Year of experience</p>
+            <h1>20 K+</h1>
+            <p> Posts stacked</p>
           </div>
         </div>
       </div>

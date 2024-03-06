@@ -5,15 +5,13 @@ import styles from "./links.module.css";
 import NavLink from "./navLink/navLink";
 import Image from "next/image";
 import { handleLogout } from "@/lib/action";
-import {
-  MdAddCircle,
+import { 
   MdHome,
   MdMessage,
   MdNotifications,
   MdOutlineGrade,
   MdPeople, 
   MdLogin,
-  MdLogout,
 } from "react-icons/md";
 
 const links = [

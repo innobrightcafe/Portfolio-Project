@@ -1,6 +1,17 @@
 {
-  "/api/auth/[...nextauth]/route": "app/api/auth/[...nextauth]/route.js",
+  "/_not-found": "app/_not-found.js",
   "/page": "app/page.js",
+  "/api/auth/[...nextauth]/route": "app/api/auth/[...nextauth]/route.js",
+  "/navigationtest/page": "app/navigationtest/page.js",
+  "/serveractiontest/page": "app/serveractiontest/page.js",
+  "/api/blog/route": "app/api/blog/route.js",
+  "/(pages)/(auth)/login/page": "app/(pages)/(auth)/login/page.js",
+  "/(pages)/(auth)/register/page": "app/(pages)/(auth)/register/page.js",
   "/(pages)/blog/page": "app/(pages)/blog/page.js",
-  "/(pages)/(auth)/login/page": "app/(pages)/(auth)/login/page.js"
+  "/(pages)/about/page": "app/(pages)/about/page.js",
+  "/(pages)/contact/page": "app/(pages)/contact/page.js",
+  "/api/blog/[slug]/route": "app/api/blog/[slug]/route.js",
+  "/(pages)/blog/[slug]/page": "app/(pages)/blog/[slug]/page.js",
+  "/(dashboard)/manageposts/page": "app/(dashboard)/manageposts/page.js",
+  "/(dashboard)/manageusers/page": "app/(dashboard)/manageusers/page.js"
 }

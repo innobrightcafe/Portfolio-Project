@@ -18,19 +18,19 @@ const Home = () => {
           </p>
           <div className={styles.buttons}>
             <Link href="/about">
-            <button className={styles.button}>Read More</button>
+              <button className={styles.button}>Read More</button>
             </Link>
             <Link href="login">
-            <button className={styles.button1}>Start Here</button>
+              <button className={styles.button1}>Start Here</button>
             </Link>
-            
           </div>
           <div className={styles.brands}>
-            <h3>Brands Who love us:</h3><Image src="/brands.png" alt="" fill className={styles.brandImg} />
+            <h3>Brands Who love us:</h3>
+            <Image src="/brands.png" alt="" fill className={styles.brandImg} />
           </div>
         </div>
         <div className={styles.imgContainer}>
-          <Image src="/codestack.png" alt="" fill className={styles.heroImg} />
+          <Image src="/codestack.png" alt="" width={400} height={300} className={styles.heroImg} />
         </div>
       </div>
     </>

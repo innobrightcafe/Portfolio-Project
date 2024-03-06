@@ -3,6 +3,7 @@
   align-items: center;
   margin-top: 8rem;
   gap: 100px;
+  
 }
 
 .imgContainer {
@@ -17,31 +18,37 @@
 
 .formContainer {
   flex: 1;
+  background: var(--bgwhite);
+  border-radius: 2rem;
+  padding: 2rem;
+  box-shadow: var(--shadow);
 }
 
 .form {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  
 }
 
 .form input,
 .form textarea {
   padding: 20px;
-  border-radius: 5px;
+  border-radius: 2rem;
   border: none;
   outline: none;
   background-color: var(--bgSoft);
   color: var(--text);
+  box-shadow: var(--shadow);
 }
 
 .form button {
   padding: 20px;
   background-color: var(--btn);
-  color: var(--text);
+  color: var(--bgwhite);
   font-weight: bold;
   border: none;
-  border-radius: 5px;
+  border-radius: 2rem;
   cursor: pointer;
 }
 

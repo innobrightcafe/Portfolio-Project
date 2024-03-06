@@ -48,6 +48,23 @@ export const deletePost = async (formData) => {
   }
 };
 
+export const updatePost = async (formData) => {
+  const { id } = Object.fromEntries(formData);
+
+  try {
+    connectToDb();
+
+    await Post.findByIdAndUpdate(id);
+    console.log("updated successfully");
+    revalidatePath("/blog");
+    revalidatePath("/admin");
+  } catch (err) {
+    console.log(err);
+    return { error: "Something went wrong!" };
+  }
+};
+ 
+
 export const addUser = async (prevState,formData) => {
   const { username, email, password, img } = Object.fromEntries(formData);
 
@@ -90,7 +107,6 @@ export const handleGithubLogin = async () => {
 };
 
 export const handleLogout = async () => {
-   
   await signOut();
 };
 
