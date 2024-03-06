@@ -1,0 +1,38 @@
+.container{
+  min-width: 100px;
+  padding: 8px;
+  border-radius: 2rem;
+  font-weight: 600;
+  text-align: center; 
+  justify-content: center;
+  align-items: center;
+}
+
+.container:hover {
+  color: var(--btn);
+}
+
+.active{
+  background-color: var(--btn);
+  color: var(--bg);
+}
+
+.active:hover {
+  color: var(--bgwhite);
+}
+
+.icons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center; 
+}
+
+.menu {
+  display: flex;
+  gap: 5px; 
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+}

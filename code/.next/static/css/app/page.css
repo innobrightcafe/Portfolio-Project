@@ -1,0 +1,187 @@
+/*!*******************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./src/app/home.module.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************/
+.home_container__2nSFh {
+  display: flex;
+  margin-top: 8rem;
+  gap: 100px;
+}
+
+.home_textContainer__1ljkg {
+  flex: 1 1;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.home_title__jKRy7{
+  font-size: 96px;
+}
+
+.home_desc__ZPff_{
+  font-size: 20px;
+}
+
+.home_buttons__Z9C0a{
+  display: flex;
+  gap: 20px;
+}
+
+.home_button__OGYC6{
+  padding: 1rem;
+  min-width: 120px;
+  cursor: pointer;
+  color: var(--bgwhite);
+  border: none;
+  border-radius: 2rem;
+  box-shadow: var(--shadow);
+  background-color: var(--btn);
+
+}
+
+.home_button1__VnacT{
+  padding: 1rem;
+  min-width: 120px;
+  cursor: pointer;
+  border: none;
+  border-radius: 2rem;
+  box-shadow: var(--shadow);
+  background-color: var(--bgwhite);
+
+}
+ 
+
+.home_brands__5bIh_{
+  width: 500px;
+  height: 50px;
+  position: relative;
+  filter: grayscale(1);
+}
+
+.home_imgContainer__uuBJb {
+  flex: 1 1;
+  position: relative;
+}
+
+@media (max-width: 1024px) {
+  .home_container__2nSFh {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .home_buttons__Z9C0a{
+    justify-content: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .home_title__jKRy7 {
+    font-size: 64px;
+  }
+
+  .home_brands__5bIh_{
+    width: 100%;
+  }
+}
+
+
+/*!**************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./src/components/navbar/links/navLink/navLink.module.css ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************************************/
+.navLink_container__qhNgr{
+  min-width: 100px;
+  padding: 8px;
+  border-radius: 2rem;
+  font-weight: 600;
+  text-align: center; 
+  justify-content: center;
+  align-items: center;
+}
+
+.navLink_container__qhNgr:hover {
+  color: var(--btn);
+}
+
+.navLink_active__eOJoV{
+  background-color: var(--btn);
+  color: var(--bg);
+}
+
+.navLink_active__eOJoV:hover {
+  color: var(--bgwhite);
+}
+
+.navLink_icons___JsSV {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center; 
+}
+
+.navLink_menu__MJzCa {
+  display: flex;
+  gap: 5px; 
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+}
+/*!****************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./src/components/navbar/links/links.module.css ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************/
+.links_links__a8XY9 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: -6rem; 
+}
+
+
+.links_links__a8XY9 > :last-child {
+  color: var(--bgwhite);
+}
+
+ 
+
+.links_logout__rP8jl {
+  padding: 2em; 
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 0 2rem 2rem 0; 
+  border: none;
+  background-color: transparent;
+  color: var(--bgSoft);
+}
+
+.links_menuButton__myBi1,
+.links_mobileLinks__DFe6Z {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .links_links__a8XY9 {
+    display: none;
+  }
+
+  .links_menuButton__myBi1 {
+    display: block;
+    cursor: pointer;
+  }
+
+  .links_mobileLinks__DFe6Z {
+    position: absolute;
+    top: 100px;
+    right: 0;
+    width: 100%;
+    height: calc(100vh - 100px);
+    background-color: var(--nav);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+    color: aliceblue;
+    font-size: larger;
+  }
+}
+

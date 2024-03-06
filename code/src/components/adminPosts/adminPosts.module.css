@@ -1,0 +1,42 @@
+.post {
+  margin: 20px 0px; 
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.conatiner h3 {
+  color: var(--btn);
+}
+
+.postTitle {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: var(--bgwhite);
+  background: var(--btn);
+  border-radius: 0 0rem 1rem 1rem;
+  padding: .5rem;
+  text-align: center;
+  margin-top: -.5rem;
+
+}
+
+.detail {
+  height: 100%;
+  width: 100%;
+  
+}
+ 
+
+.postButton{
+  padding: 5px 10px;
+  background-color: rgba(220, 20, 60, 0.593);
+  color: var(--textColor);
+  border-radius: 5px;
+  border: none;
+  cursor: pointer; 
+  float: right;
+  margin-right: 1rem;
+  margin-top: -2rem;
+  position: absolute;
+}

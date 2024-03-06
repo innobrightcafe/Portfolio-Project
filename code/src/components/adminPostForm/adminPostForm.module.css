@@ -1,0 +1,37 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background: var(--bgwhite);
+  padding: 2rem;
+  border-radius: 2rem;
+  box-shadow: var(--shadow);
+}
+
+.container input,
+.container textarea,
+.container select {
+  padding: 20px;
+  background-color: var(--bgSoft);
+  border: none;
+  border-radius: 2rem;
+  color: var(--textColor);
+  box-shadow: var(--shadow); 
+  
+}
+
+.container button {
+  padding: 20px;
+  cursor: pointer;
+  background-color: var(--btn);
+  border: none;
+  border-radius: 2rem;
+  color: var(--bgwhite);
+  font-weight: bold;
+  box-shadow: var(--shadow);
+}
+
+.container h3 {
+  text-align: center;
+  color: var(--btn);
+}
