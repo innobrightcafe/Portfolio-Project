@@ -52,6 +52,10 @@ const postSchema = new mongoose.Schema(
       required: true,
       unique: true,
     },
+    category: {
+      type: String,
+      required: true, 
+    },
   },
   { timestamps: true }
 );

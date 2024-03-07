@@ -11,7 +11,19 @@
 .container input,
 .container textarea,
 .container select {
-  padding: 20px;
+  padding: 1.5rem;
+  background-color: var(--bgSoft);
+  border: none;
+  border-radius: 2rem;
+  color: var(--textColor);
+  box-shadow: var(--shadow); 
+  
+}
+
+.container select {
+  padding: 1rem;
+  padding-right: 2rem;
+  width: 50%;
   background-color: var(--bgSoft);
   border: none;
   border-radius: 2rem;
