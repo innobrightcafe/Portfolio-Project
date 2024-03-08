@@ -6,21 +6,28 @@
 .textContainer {
   flex: 1;
   display: flex;
-  flex-direction: column;
-  gap: 50px;
+  flex-direction: column; 
+  gap: 20px;
 }
 
 .subtitle{
-  color:var(--btn)
+  color:var(--btn);
+  text-align: center;
+  margin-bottom: 2rem;
+  
 }
 
 .title{
-  font-size: 54px;
+  font-size: 30px;
 }
 
 .desc{
   font-size: 20px;
-  font-weight: 300;
+  font-weight: 300; 
+}
+
+.descdown {
+  margin-top: 1rem;
 }
 
 .boxes{
@@ -42,21 +49,19 @@
 
 .imgContainer {
   flex: 1;
-  position: relative;
+  position: relative; 
 }
 
 .img{
-  object-fit: contain;
+  object-fit: contain; 
 }
 
 @media (max-width: 768px) {
   .container {
     flex-direction: column;
-    text-align: center;
   }
 
-  .boxes{
-    flex-direction: column;
-    gap: 50px;
+  .boxes{ 
+    gap: .5rem;
   }
 }

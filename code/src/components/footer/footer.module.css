@@ -59,4 +59,8 @@
     height: 30px;
     width: 30px; 
   }
+  .text {
+    font-size: 8px;
+  }
+  
 }

@@ -32,21 +32,24 @@
   border: none;
   border-radius: 2rem;
   box-shadow: var(--shadow);
-  background-color: var(--btn);
+  background: var(--btn);
 
 }
 
-.button1{
-  padding: 1rem;
-  min-width: 120px;
-  cursor: pointer;
-  border: none;
-  border-radius: 2rem;
-  box-shadow: var(--shadow);
+.firstButton {
   background-color: var(--bgwhite);
-
+  color: var(--text);
 }
- 
+
+.button:hover {
+  background-color: var(--bgwhite);
+  color: var(--text);
+}
+
+.firstButton:hover {
+  background-color: var(--btn);
+  color: var(--bgwhite);
+}
 
 .brands{
   width: 500px;

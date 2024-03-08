@@ -15,13 +15,16 @@ const Home = () => {
             and insights with a community of passionate techies, such as
             software engineers, web designers, and programmers. It is also a
             place to discuss the latest and hottest topics in tech.
+            
           </p>
           <div className={styles.buttons}>
             <Link href="/about">
-              <button className={styles.button}>Read More</button>
+              <button className={`${styles.button} ${styles.firstButton}`}>
+                Read More
+              </button>
             </Link>
-            <Link href="login">
-              <button className={styles.button1}>Start Here</button>
+            <Link href="/login">
+              <button className={styles.button}>Start Here</button>
             </Link>
           </div>
           <div className={styles.brands}>
@@ -30,7 +33,13 @@ const Home = () => {
           </div>
         </div>
         <div className={styles.imgContainer}>
-          <Image src="/codestack.png" alt="" width={400} height={300} className={styles.heroImg} />
+          <Image
+            src="/codestack.png"
+            alt=""
+            width={300}
+            height={300}
+            className={styles.heroImg}
+          />
         </div>
       </div>
     </>
