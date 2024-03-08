@@ -54,8 +54,8 @@ const Links = ({session}) => {
          
         {session?.user ? (
           <>
-            {session.user?.isAdmin && <NavLink item={{ icon:<MdOutlineGrade size={20}/>, title: "posts", path: "admin/manageposts" }} />}
-            {session.user?.isAdmin && <NavLink item={{ icon:<MdOutlineGrade size={20}/>, title: "users", path: "admin/manageusers" }} />}
+            {session.user?.isAdmin && <NavLink item={{ icon:<MdOutlineGrade size={20}/>, title: "posts", path: "/manageposts" }} />}
+            {session.user?.isAdmin && <NavLink item={{ icon:<MdOutlineGrade size={20}/>, title: "users", path: "/manageusers" }} />}
             <form action={handleLogout}>
 
               <button className={styles.logout}>
