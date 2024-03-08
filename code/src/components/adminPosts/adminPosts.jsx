@@ -32,14 +32,7 @@ const AdminPosts = async () => {
           <form action={deletePost}>
             <input type="hidden" name="id" value={post.id} />
             <button className={styles.postButton}>Delete</button>
-          </form>
-          <form action={updatePost}>
-            <input type="hidden" name="id" value={post.id} />
-            <Link href={`/updatepost`}>
-            <button className={styles.udateButton}>Update</button>
-            </Link>
-            
-          </form>
+          </form> 
         </div>
       ))}
     </div>
